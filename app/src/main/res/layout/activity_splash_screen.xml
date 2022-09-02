@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreenActivity"
+    android:background="@drawable/texturematerialwoodpatternbackground"
+    >
+
+    <TextView
+        android:id="@+id/maintitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/lobsterregular"
+        android:gravity="center"
+
+        android:text="Tamu Sana"
+        android:textColor="#E11943"
+        android:textSize="70sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/maintitle"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/oxygenbold"
+        android:paddingLeft="40dp"
+        android:text="Your guide to local Kenyan cuisine"
+        android:textColor="#F40F2A"
+        android:textSize="20sp" />
+
+</RelativeLayout>

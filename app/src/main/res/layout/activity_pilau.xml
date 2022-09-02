@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PilauActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/pilau"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pilau"
+            android:fontFamily="@font/fontfour"
+            android:textSize="35sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients"
+            android:textSize="30sp"
+            android:fontFamily="@font/fontfour"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 tablespoon vegetable oil"
+            android:fontFamily="@font/oxygenbold"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="½ teaspoon cumin seeds"
+            android:fontFamily="@font/oxygenbold"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¼ cup diced red onion"
+            android:fontFamily="@font/oxygenbold"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¾ tablespoon garam masala"
+            android:fontFamily="@font/oxygenbold"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="½ teaspoon ground turmeric"
+            android:fontFamily="@font/oxygenbold"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="½ teaspoon salt"
+            android:fontFamily="@font/oxygenbold"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oxygenbold"
+            android:text="1 ½ cups vegetable broth"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oxygenbold"
+            android:text="1 cup uncooked basmati rice, rinsed and drained"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="½ cup frozen peas and carrots"
+            android:fontFamily="@font/oxygenbold"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 bay leaf"
+            android:fontFamily="@font/oxygenbold"
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Directions"
+            android:fontFamily="@font/fontfour"
+            android:layout_marginTop="10dp"
+            android:textSize="35sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oxygenbold"
+            android:text="Turn on a multi-functional pressure cooker (such as Instant Pot®) and select Saute function. Heat oil in the pot. Add cumin seeds and stir until they just start to pop. Stir in onion and cook until they begin to soften, about 2 minutes. Season with garam masala, turmeric, and salt. Add vegetable broth, rice, frozen peas and carrots, and bay leaf; stir until well combined."
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oxygenbold"
+            android:layout_marginTop="10dp"
+            android:text="Close and lock the lid. Select high pressure according to manufacturer's instructions; set timer for 5 minutes. Allow 10 to 15 minutes for pressure to build."
+            android:textSize="30sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/oxygenbold"
+            android:text="Release pressure using the natural-release method according to manufacturer's instructions, 10 to 40 minutes. Manually release any remaining pressure. Unlock and remove the lid. Remove bay leaf. Taste rice and adjust seasoning if necessary before serving."
+            android:textSize="30sp" />
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

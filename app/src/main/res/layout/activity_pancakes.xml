@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PancakesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/pancakes2"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fontfour"
+            android:text="Whole wheat pancake recipe"
+            android:textSize="35sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingredients"
+            android:textStyle="bold"
+            android:fontFamily="@font/fontfour"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 cup whole wheat flour"
+            android:fontFamily="@font/oxygenbold"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⅔ cup all-purpose flour"
+            android:fontFamily="@font/oxygenbold"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⅓ cup wheat germ"
+            android:fontFamily="@font/oxygenbold"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oxygenbold"
+            android:text="½ teaspoon baking soda"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:fontFamily="@font/oxygenbold"
+            android:layout_height="wrap_content"
+            android:text="⅔ cup all-purpose flour"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:fontFamily="@font/oxygenbold"
+            android:layout_height="wrap_content"
+            android:text="1 ½ teaspoons baking powder"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oxygenbold"
+            android:text="2 tablespoons brown sugar"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oxygenbold"
+            android:text="5 ⅓ tablespoons unsalted butter"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oxygenbold"
+            android:text="2 ½ cups buttermilk"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oxygenbold"
+            android:text="2 eggs, beaten"
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Directions"
+            android:textSize="35sp"
+            android:fontFamily="@font/fontfour"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oxygenbold"
+            android:layout_marginTop="10dp"
+            android:text="In a food processor or in a large bowl, combine the whole wheat flour, white flour, wheat germ or oats, baking powder, baking soda, brown sugar, and salt."
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oxygenbold"
+            android:layout_marginTop="10dp"
+            android:text="Cut the butter into small pieces with a knife, and add the butter to the flour-mixture. Mix until the mixture has a sand-like consistency."
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/oxygenbold"
+            android:text="Make a well in the center of the flour-butter mixture, and add the buttermilk and eggs. Stir until the liquids are fully incorporated."
+            android:textSize="30sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/oxygenbold"
+            android:text="Heat a frying pan over medium heat and grease the surface with 1 tablespoon of butter or oil. Ladle the batter onto the surface to form 4 inch pancakes. Once bubbles form on the top of the pancakes, flip them over, and cook them on the other side for about 2 minutes."
+            android:textSize="30sp"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

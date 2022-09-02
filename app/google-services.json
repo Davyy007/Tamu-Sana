@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "509742050530",
+    "project_id": "food-app-project-1c61e",
+    "storage_bucket": "food-app-project-1c61e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509742050530:android:11b5085c220e0c413842bb",
+        "android_client_info": {
+          "package_name": "com.example.tamusana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509742050530-08ge5jdak0fjt85cmo1remfkq8lqdo7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCztIDARsD_Miq7p1rHRsdTcJjWNwMmdoc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509742050530-08ge5jdak0fjt85cmo1remfkq8lqdo7b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
